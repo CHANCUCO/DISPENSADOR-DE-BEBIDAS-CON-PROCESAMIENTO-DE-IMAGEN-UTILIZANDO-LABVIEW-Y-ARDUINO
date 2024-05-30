@@ -13,8 +13,9 @@ Estructura del Repositorio
    
    -Documentación: Librerías necesarias.
 
-Cómo Funciona el Código
+¿Cómo Funciona el Código?
 --------------------------------------------------------------------------------------------------------------------------
+
 
 (1) Captura de Imagen: La cámara conectada al sistema captura la imagen del código QR.
 --------------------------------------------------------------------------------------------------------------------------
