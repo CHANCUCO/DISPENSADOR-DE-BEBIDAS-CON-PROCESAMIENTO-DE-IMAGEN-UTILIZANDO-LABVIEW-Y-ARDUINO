@@ -1,7 +1,7 @@
 DIAGRAMA_ESQUEMÁTICO_ARDUINO_MOTOBOMBAS
 --------------------------------------------------------
 
-A continuación se presenta el diagrama esqumático del circuito utilizado para el control de las motobombas.
+A continuación se presenta el diagrama esquemático del circuito utilizado para el control de las motobombas.
 
 Componentes utilizados: Arduino Uno. Transistores NPN 2N3904, Relés 5V, Resistencias 220Ω, Pilas de 9V y Motobombas de 12V.
 
