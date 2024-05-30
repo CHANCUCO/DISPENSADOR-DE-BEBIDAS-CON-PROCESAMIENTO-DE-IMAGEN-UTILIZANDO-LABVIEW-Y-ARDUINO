@@ -14,13 +14,19 @@ Cómo Funciona el Código
 1.Captura de Imagen: La cámara conectada al sistema captura la imagen del código QR.
 
 2.Procesamiento de Imagen en LabVIEW:
+
  -La imagen capturada se procesa en LabVIEW utilizando librerías especializadas.
+ 
  -Se decodifica el contenido del código QR.
  
 3.Envío de Instrucción:
+
  -LabVIEW envía una señal al Arduino a través de MakerHub Linx.
+ 
  -La señal contiene la instrucción específica basada en el código QR decodificado.
  
 4.Control de Motobombas:
+
  -El Arduino recibe la instrucción y activa las motobombas correspondientes.
+ 
  -Las motobombas dispensan la bebida seleccionada.
