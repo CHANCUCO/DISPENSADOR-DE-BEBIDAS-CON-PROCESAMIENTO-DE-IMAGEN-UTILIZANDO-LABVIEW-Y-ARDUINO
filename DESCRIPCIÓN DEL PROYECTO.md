@@ -4,29 +4,32 @@ para dispensar la bebida seleccionada.
 
 Estructura del Repositorio
 
--Código LabVIEW: Contiene los archivos de LabVIEW utilizados para el procesamiento de imágenes y la interfaz de control.
--Código Arduino: Recibe las instrucciones de LabVIEW mediante MakerHub Linx y controla las motobombas.
--Esquema Eléctrico: Diagramas esquemáticos del circuito utilizado, incluyendo conexiones de Arduino y las motobombas.
--Documentación: Librerías necesarias.
+ -Código LabVIEW: Contiene los archivos de LabVIEW utilizados para el procesamiento de imágenes y la interfaz de control.
+ 
+ -Código Arduino: Recibe las instrucciones de LabVIEW mediante MakerHub Linx y controla las motobombas.
+ 
+ -Esquema Eléctrico: Diagramas esquemáticos del circuito utilizado, incluyendo conexiones de Arduino y las motobombas.
+ 
+ -Documentación: Librerías necesarias.
 
 Cómo Funciona el Código
 
-1.Captura de Imagen: La cámara conectada al sistema captura la imagen del código QR.
+1) Captura de Imagen: La cámara conectada al sistema captura la imagen del código QR.
 
-2.Procesamiento de Imagen en LabVIEW:
+2) Procesamiento de Imagen en LabVIEW:
 
- -La imagen capturada se procesa en LabVIEW utilizando librerías especializadas.
+   -La imagen capturada se procesa en LabVIEW utilizando librerías especializadas.
+   
+   -Se decodifica el contenido del código QR.
  
- -Se decodifica el contenido del código QR.
- 
-3.Envío de Instrucción:
+3) Envío de Instrucción:
 
- -LabVIEW envía una señal al Arduino a través de MakerHub Linx.
+   -LabVIEW envía una señal al Arduino a través de MakerHub Linx.
+   
+   -La señal contiene la instrucción específica basada en el código QR decodificado.
  
- -La señal contiene la instrucción específica basada en el código QR decodificado.
- 
-4.Control de Motobombas:
+4) Control de Motobombas:
 
- -El Arduino recibe la instrucción y activa las motobombas correspondientes.
- 
- -Las motobombas dispensan la bebida seleccionada.
+   -El Arduino recibe la instrucción y activa las motobombas correspondientes.
+   
+   -Las motobombas dispensan la bebida seleccionada.
