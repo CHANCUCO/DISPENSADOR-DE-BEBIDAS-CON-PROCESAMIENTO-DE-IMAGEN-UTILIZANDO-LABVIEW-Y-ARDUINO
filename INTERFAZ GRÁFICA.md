@@ -1,7 +1,9 @@
 INTERFAZ_GRÁFICA_EN_LABVIEW
 _________________________________________________________________________________________________
 
+
 Sin seleccionar ninguna bebida con su respectivo QR
+
 ![INTERFAZ GRÁFICA 1](https://github.com/CHANCUCO/DISPENSADOR-DE-BEBIDAS-CON-PROCESAMIENTO-DE-IMAGEN-UTILIZANDO-LABVIEW-Y-ARDUINO/assets/147283141/4525adfb-7e83-4ffd-aaab-a6997160df49)
 
 
