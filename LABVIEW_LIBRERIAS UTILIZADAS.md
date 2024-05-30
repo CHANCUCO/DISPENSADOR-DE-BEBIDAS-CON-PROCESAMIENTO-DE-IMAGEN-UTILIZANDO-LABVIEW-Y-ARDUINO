@@ -1,0 +1,3 @@
+Las librerias utilizadas para este proyecto son las siguientes (MARCADAS EN AZUL):
+
+![LIBRERIAS](https://github.com/CHANCUCO/DISPENSADOR-DE-BEBIDAS-CON-PROCESAMIENTO-DE-IMAGEN-UTILIZANDO-LABVIEW-Y-ARDUINO/assets/147283141/88557c21-961d-43b9-8032-20b80b1225cb)
