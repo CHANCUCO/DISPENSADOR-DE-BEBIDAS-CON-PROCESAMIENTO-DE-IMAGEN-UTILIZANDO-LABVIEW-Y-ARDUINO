@@ -6,9 +6,7 @@ Estructura del Repositorio
 --------------------------------------------------------------------------------------------------------------------------
 
    -Código LabVIEW: Contiene los archivos de LabVIEW utilizados para el procesamiento de imágenes y la interfaz de control.
-   
-   -Código Arduino: Recibe las instrucciones de LabVIEW mediante MakerHub Linx y controla las motobombas.
-   
+     
    -Esquema Eléctrico: Diagramas esquemáticos del circuito utilizado, incluyendo conexiones de Arduino y las motobombas.
    
    -Documentación: Librerías necesarias.
