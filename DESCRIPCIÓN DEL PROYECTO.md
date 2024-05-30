@@ -4,29 +4,32 @@ para dispensar la bebida seleccionada.
 
 Estructura del Repositorio
 
-   A-Código LabVIEW: Contiene los archivos de LabVIEW utilizados para el procesamiento de imágenes y la interfaz de control.
+   -Código LabVIEW: Contiene los archivos de LabVIEW utilizados para el procesamiento de imágenes y la interfaz de control.
    
-   B-Código Arduino: Recibe las instrucciones de LabVIEW mediante MakerHub Linx y controla las motobombas.
+   -Código Arduino: Recibe las instrucciones de LabVIEW mediante MakerHub Linx y controla las motobombas.
    
-   C-Esquema Eléctrico: Diagramas esquemáticos del circuito utilizado, incluyendo conexiones de Arduino y las motobombas.
+   -Esquema Eléctrico: Diagramas esquemáticos del circuito utilizado, incluyendo conexiones de Arduino y las motobombas.
    
-   D-Documentación: Librerías necesarias.
+   -Documentación: Librerías necesarias.
 
 Cómo Funciona el Código
 
 (1) Captura de Imagen: La cámara conectada al sistema captura la imagen del código QR.
+
 
 (2) Procesamiento de Imagen en LabVIEW:
 
    -La imagen capturada se procesa en LabVIEW utilizando librerías especializadas.
    
    -Se decodifica el contenido del código QR.
+
  
 (3) Envío de Instrucción:
 
    -LabVIEW envía una señal al Arduino a través de MakerHub Linx.
    
    -La señal contiene la instrucción específica basada en el código QR decodificado.
+   
  
 (4) Control de Motobombas:
 
