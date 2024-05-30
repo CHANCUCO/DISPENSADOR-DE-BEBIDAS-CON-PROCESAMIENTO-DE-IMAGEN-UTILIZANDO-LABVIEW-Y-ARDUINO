@@ -28,7 +28,7 @@ Cómo Funciona el Código
    
    -La señal contiene la instrucción específica basada en el código QR decodificado.
  
-4) Control de Motobombas:
+(4) Control de Motobombas:
 
    -El Arduino recibe la instrucción y activa las motobombas correspondientes.
    
